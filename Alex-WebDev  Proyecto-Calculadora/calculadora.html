@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="contenido">
+        <h1>Calculadora</h1>
+        <div class="nums">
+            <input type="text" name="num1" id="num1" placeholder="numero 1">
+            <input type="text" name="num2" id="num2" placeholder="numero 2">
+        </div>
+        <div class="operadores">
+            <button id="btnSuma" type="button" onclick="suma()">+</button>
+            <button id="btnResta" type="button" onclick="resta()">-</button>
+            <button id="btnDivision" type="button" onclick="division()">/</button>
+            <button id="btnMultiplicacion" type="button" onclick="multiplicacion()">x</button>
+        </div>
+        <div class="palabras">
+            <div class="fila1">
+                <button id="btnRaiz" type="button" onclick="raiz()">Raiz</button>
+                <button id="btnPotencia" type="button" onclick="potencia()">Potencia</button>
+            </div>
+            <div class="fila2">
+                <button id="btnAbsoluto" type="button" onclick="absoluto()">Absoluto</button>
+                <button id="btnRandom" type="button" onclick="random()">Random</button>
+            </div>
+        </div>
+        <div class="resultado">
+            <h2>Resultado</h2>
+            <input type="text" name="resultado" id="resultado" readonly>
+        </div>
+        <div class="nombre">
+            Alejandro Aranda Galán 2ºDAW
+        </div>
+        
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>

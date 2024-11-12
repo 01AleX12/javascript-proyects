@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Montserrat;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    padding: 10px 10px 30px 10px;
+    border-radius: 15px;
+    transform: translateY(50%);
+}
+
+.nums {
+    max-width: 1000px;
+}
+
+.nums input {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+.operadores {
+    display: flex;
+    margin-top: 20px;
+    max-width: 1000px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.operadores button {
+    padding: 5px 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+}
+
+.palabras {
+    display: flex;
+    margin-top: 20px;
+    max-width: 1000px;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.fila1, .fila2 {
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.fila1 button, .fila2 button {
+    width: 185px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+}
+
+.resultado {
+    text-align: center;
+}
+
+#resultado {
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+}
+
+.nombre {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

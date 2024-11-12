@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    font-family: Montserrat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+form h1,label,input,button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: cadetblue;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar Notas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <h1>Ingresar Notas:</h1>
+    <input id="notasInput" type="text" rows="4" cols="50" placeholder="Escribe las notas separadas por comas"></input>
+    <br>
+    <button onclick="mostrarNotas()">Mostrar Notas</button>
+
+    <h2>Notas:</h2>
+    <ul id="listaNotas"></ul>
+
+    <h2>Promedio: <span id="promedio"></span></h2>
+    <button onclick="calcularPromedio()">Calcular promedio</button>
+
+    <h2>Nota más alta: <span id="notaMasAlta"></span></h2>
+    <button onclick="buscarNotaMasAlta()">Buscar nota más alta</button>
+
+    <h2>¿Hubo algún suspenso? <span id="suspenso"></span></h2>
+    <button onclick="consultarSuspenso()">Consultar suspenso</button>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
